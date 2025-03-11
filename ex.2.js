@@ -9,10 +9,14 @@ Estudante: Tayna
  */ 
 
    
-   let numeros = [7, 19, 22, 88, 8, 32, 90, 11, 99, 2];
-   let par = 0;
-   let impar = 0;
-     
+  let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9 , 10];
+    let soma  =  0;
+      for(let i=0; i<numeros.length; i++){
+        soma  += numeros[i];
+      }
+        console.log(soma);
+        console.log(numeros);
+
       
  
     
